@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--  Last Published: Mon Jul 27 2020 16:34:47 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Aug 06 2020 03:34:18 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f1ecdf9debb56bb6496b94a" data-wf-site="5f1ecdf9d4b3650b2617898e">
 <head>
   <meta charset="utf-8">
@@ -24,24 +24,20 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.redsvg {
+   fill: green;
+}
 </style>
 </head>
 <body class="body">
-  <div data-collapse="medium" data-animation="default" data-duration="400" id="Navigation" data-w-id="33c883c6-4afc-cc73-3bca-d2857a9d4bc2" role="banner" class="navbar w-nav">
+  <div data-collapse="medium" data-animation="over-right" data-duration="400" id="Navigation" data-w-id="33c883c6-4afc-cc73-3bca-d2857a9d4bc2" role="banner" class="navbar w-nav">
     <div class="navigation-container">
       <div class="navigation-left"><a href="index.html" aria-current="page" class="brand w-nav-brand w--current"><img src="images/Asset-35x.png" srcset="images/Asset-35x-p-500.png 500w, images/Asset-35x-p-800.png 800w, images/Asset-35x-p-1080.png 1080w, images/Asset-35x.png 2209w" sizes="(max-width: 767px) 90px, 100px" alt=""></a></div>
       <div class="navigation-right">
         <div class="menu-button w-nav-button">
           <div class="icon w-icon-nav-menu"></div>
         </div>
-        <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
-          <div data-hover="" data-delay="0" class="w-dropdown">
-            <div class="dropdown-toggle w-dropdown-toggle">
-              <div class="nav-link">Features</div>
-              <div class="icon-2 w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list"><a href="#" class="nav-link-dropdown w-dropdown-link">Multi Factor Authentication</a><a href="#" class="nav-link-dropdown w-dropdown-link">SSO</a><a href="#" class="nav-link-dropdown w-dropdown-link">Passwordless</a><a href="#" class="nav-link-dropdown w-dropdown-link">User Access Management</a></nav>
-          </div><a href="#" class="nav-link w-nav-link">Business Cases</a><a href="#" class="nav-link w-nav-link">White Paper</a><a href="#" class="nav-link w-nav-link">Team</a><a href="mailto:hello@website.com?subject=Hi" class="nav-link w-nav-link">Contact</a></nav>
+        <nav role="navigation" class="nav-menu w-nav-menu"><a href="#Header" class="nav-link w-nav-link">Home</a><a href="#featuresinfo" class="nav-link w-nav-link">Features</a><a href="#" class="nav-link w-nav-link">Demo</a><a href="#teaminfo" class="nav-link w-nav-link">Team</a><a href="#contactinfo" class="nav-link w-nav-link">Contact</a></nav>
       </div>
     </div>
   </div>
@@ -62,18 +58,23 @@ body{
   </div>
   <div class="content-section">
     <div class="container">
-      <p class="feature-paragraph"><strong class="bold-text">Features<br><br>‍</strong></p>
+      <div id="featureinfo">
+        <p id="featuresinfo" class="feature-paragraph"><strong class="bold-text">Features<br><br>‍</strong></p>
+      </div>
     </div>
     <div class="container">
       <div class="w-row">
-        <div class="column w-col w-col-4"><img src="images/decentralized.png" alt="" class="image">
-          <p class="feature-paragraph"><strong class="bold-text-3">Decentralized<br><br>‍</strong>seamlessly integration with permissionless / permissioned blockchains and no trusted 3rd parties</p>
+        <div class="column w-col w-col-3"><img src="images/decentralized.png" alt="" class="image">
+          <p class="feature-paragraph"><strong class="bold-text-3">Multi-factor Authentication (MFA)<br><br></strong>Enhance the security of your app with contextual step-up authentication using a broad set of second factors.</p>
         </div>
-        <div class="column w-col w-col-4"><img src="images/app.png" alt="" class="image">
-          <p class="feature-paragraph"><strong class="bold-text-2">Easy to use<br><br>‍</strong>biometric (e.g. facial) identification make using digital identities easyseamlessly integration with permissionless / permissioned blockchains and no trusted 3rd parties</p>
+        <div class="column w-col w-col-3"><img src="images/app.png" alt="" class="image">
+          <p class="feature-paragraph"><strong class="bold-text-2">Single Sign-On<br>(SSO)<br><br>‍</strong>Enable reliable single sign-on service that integrates with all your web and mobile apps.</p>
         </div>
-        <div class="column w-col w-col-4"><img src="images/password.png" alt="" class="image">
-          <p class="feature-paragraph"><strong class="bold-text-5">Privacy by construction<br><br>‍</strong>zero-knowledge proof preserves user’s privacy by constructionseamlessly integration with permissionless / permissioned blockchains and no trusted 3rd parties</p>
+        <div class="column w-col w-col-3"><img src="images/password.png" alt="" class="image">
+          <p class="feature-paragraph"><strong class="bold-text-5">Access Management<br><br></strong>Implement the intelligent access management portal and authentication policies based on login context that includes location, device, timestamp, IP zones, etc.</p>
+        </div>
+        <div class="column-2 w-col w-col-3"><img src="images/biometric.png" width="150" alt="" class="image redsvg">
+          <p class="feature-paragraph"><strong class="bold-text-5">Password-less<br>‍</strong><br> Log into your mobile and web apps by SMS, email or biometric authentication.</p>
         </div>
       </div>
     </div>
@@ -84,7 +85,7 @@ body{
         <div class="hero-content-copy">
           <h1 style="-webkit-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="hero-h1">Framework /<br>Architecture</h1>
         </div>
-        <div class="hero-image-wrap-copy"><img src="images/WechatIMG198-1.png" alt="Food Delivery" srcset="images/WechatIMG198-1.png 500w, images/WechatIMG198-1.png 800w, images/WechatIMG198-1.png 1080w, images/WechatIMG198-1.png 2108w" sizes="(max-width: 991px) 94vw, 66vw" class="architecture"></div>
+        <div class="hero-image-wrap-copy"><img src="images/WechatIMG13.png" alt="Food Delivery" srcset="images/WechatIMG13-p-500.png 500w, images/WechatIMG13-p-800.png 800w, images/WechatIMG13-p-1080.png 1080w, images/WechatIMG13.png 2108w" sizes="(max-width: 991px) 94vw, 66vw" class="architecture"></div>
       </div>
     </div>
     <div class="container"></div>
@@ -95,36 +96,42 @@ body{
         <div class="image-block"><img src="images/1-24iqS01q4xyRdVsWN0rAqw.png" srcset="images/1-24iqS01q4xyRdVsWN0rAqw-p-500.png 500w, images/1-24iqS01q4xyRdVsWN0rAqw-p-800.png 800w, images/1-24iqS01q4xyRdVsWN0rAqw-p-1080.png 1080w, images/1-24iqS01q4xyRdVsWN0rAqw.png 1492w" sizes="94vw" alt="" class="image-2"></div>
         <div class="content-block">
           <h1 style="-webkit-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="hero-h1">The Solution.</h1>
-          <p style="-webkit-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="hero-paragraph">Our solution leverages zero-knowledge proof (ZKP) for biometric identification to provide mobile app and cloud APIs to let users easily use their biometrics, such as facial characters, to serve as their digital identities without loss of privacy. This is the first solution that combines the easy-to-use biometric identification with strong privacy preserving techniques (ZKP, Fully Homomorphic Encryption). Our team consists of experts in applied cryptography and computer systems. 
-</p><a href="/faq" class="button button-space w-button">See our FAQ</a></div>
+          <p style="-webkit-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-25PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="hero-paragraph">Our solution leverages zero-knowledge proof (ZKP) for biometric identification to provide mobile app and cloud APIs to let users easily use their biometrics, such as facial characters, to serve as their digital identities without loss of privacy. This is the first solution that combines the easy-to-use biometric identification with strong privacy preserving techniques (ZKP, Fully Homomorphic Encryption). Our team consists of experts in applied cryptography and computer systems.DeFault is a decentralized Identity as a Service (IDaaS) that protects consumer privacy through zero-knowledge proof of biometric identification and blockchain. DeFault is secure, efficient, and easy to use in various scenarios such as SaaS and DeFi.</p><a href="/faq" class="button button-space w-button">See our FAQ</a></div>
       </div>
     </div>
   </div>
   <div class="content-section">
     <div class="container">
-      <p class="feature-paragraph"><strong class="bold-text">Team  |  Cofounders<br><br>‍</strong></p>
+      <div id="teaminfo">
+        <p class="feature-paragraph"><strong class="bold-text">Team  |  Co-founders<br><br>‍</strong></p>
+      </div>
     </div>
     <div class="container">
       <div class="columns w-row">
         <div class="column w-col w-col-2"><img src="images/Screen-Shot-2020-07-27-at-11.30.14-AM.png" alt="" class="avatar">
-          <p class="team-paragraph"><strong class="bold-text-5">Frank Chen<br>‍</strong>Cofounder<br><br>Jiadong is a cloud architect at Oracle, focusing on providing customized cloud-based solutions to enterprise users. He has wide experience in deploying ERP, IDaaS, SaaS software for Fortune 500 companies.</p>
+          <p class="team-paragraph"><strong class="bold-text-5">Frank Chen<br>‍</strong>Co-founder<br><br>Jiadong is a cloud architect at Oracle, focusing on providing customized cloud-based solutions to enterprise users. He has wide experience in deploying ERP, IDaaS, SaaS software for Fortune 500 companies.</p>
         </div>
         <div class="column w-col w-col-2"><img src="images/Screen-Shot-2020-07-27-at-11.30.09-AM.png" alt="" class="avatar">
-          <p class="team-paragraph"><strong class="bold-text-5">Shumo Chu<br>‍</strong>Cofounder<br><br>Shumo is an assistant professor at UCSB. Before UCSB, he served as a research scientist in Algorand. He published more than 10 peer-reviewed papers in top conferences and won the SIGMOD Best Demo Award.</p>
+          <p class="team-paragraph"><strong class="bold-text-5">Shumo Chu<br>‍</strong>Co-founder<br><br>Shumo is an assistant professor at UCSB. Before UCSB, he served as a research scientist in Algorand. He published more than 10 peer-reviewed papers in top conferences and won the SIGMOD Best Demo Award.</p>
         </div>
         <div class="column w-col w-col-2"><img src="images/Screen-Shot-2020-07-27-at-11.30.32-AM.png" alt="" class="avatar">
-          <p class="team-paragraph"><strong class="bold-text-5">Han Su<br>‍</strong>Cofounder<br><br>Han graduated from MIT majored in Comparative Media Studies. His research focuses on decentralized Internet, data interoperability and data ownership. He has a background in HCI and Machine Learning. </p>
+          <p class="team-paragraph"><strong class="bold-text-5">Han Su<br>‍</strong>Co-founder<br><br>Han graduated from MIT majored in Comparative Media Studies. His research focuses on decentralized Internet, data interoperability and data ownership. He has a background in HCI and Machine Learning. </p>
         </div>
         <div class="column w-col w-col-2"><img src="images/Screen-Shot-2020-07-27-at-11.30.24-AM.png" alt="" class="avatar">
-          <p class="team-paragraph"><strong class="bold-text-5">Victor Ji<br>‍</strong>Cofounder<br><br>Victor Ji is a researcher at Belfer Center and graduates from MPA at HKS. He serves as the Chair of the HKS Blockchain Club.</p>
+          <p class="team-paragraph"><strong class="bold-text-5">Victor Ji<br>‍</strong>Co-founder<br><br>Victor Ji is a researcher at Belfer Center and graduates from MPA at HKS. He serves as the Chair of the HKS Blockchain Club.</p>
         </div>
         <div class="column w-col w-col-2"><img src="images/T2XLPRCAG-U0109A0LZFB-e5221dd5ef15-512.jpg" alt="" class="avatar">
-          <p class="team-paragraph"><strong class="bold-text-5">Lucy Yip<br>‍</strong>Cofounder<br><br>Lucy Yip is an UX Engineer at IBM Research. She graduated from Harvard GSD in 2020.</p>
+          <p class="team-paragraph"><strong class="bold-text-5">Lucy Yip<br>‍</strong>Co-founder<br><br>Lucy Yip is an UX Engineer / Researcher in Cambridge. She graduated from Harvard GSD in 2020.</p>
         </div>
         <div class="column w-col w-col-2"><img src="images/Screen-Shot-2020-07-27-at-11.31.04-AM.png" alt="" class="avatar">
-          <p class="team-paragraph"><strong class="bold-text-5">Yiqi Zhao<br>‍</strong>Cofounder<br><br>Yiqi Zhao is an HCI researcher, product and experience designer, engineer, graduated from Harvard GSD. She focuses on developing user-centered solutions for living, wellness, through ARVR, facial recognition, etc.</p>
+          <p class="team-paragraph"><strong class="bold-text-5">Yiqi Zhao<br>‍</strong>Co-founder<br><br>Yiqi Zhao is an HCI researcher, product and experience designer, engineer, graduated from Harvard GSD. She focuses on developing user-centered solutions for living, wellness, through ARVR, facial recognition, etc.</p>
         </div>
       </div>
+    </div>
+    <div class="section"></div>
+    <p class="feature-paragraph"><strong class="bold-text"><br><br>Contact Us<br>‍</strong></p>
+    <div id="contactinfo">
+      <p class="paragraph-2">If you are interested in learning more about DeFault, please contact Victor Ji:<br><br><strong>Phone: (617) 642-5459<br>Email: jicanghaivictor@qq.com<br></strong></p>
     </div>
   </div>
   <div class="footer">
@@ -136,7 +143,7 @@ body{
         <div id="w-node-a159dcc6da5e-dcc6da57" class="footer-column">
           <div class="title">company</div><a href="index.html" aria-current="page" class="footer-link w--current">Home</a><a href="mailto:hello@website.com?subject=Hi" class="footer-link">Contact</a></div>
         <div id="w-node-a159dcc6da69-dcc6da57" class="footer-column">
-          <div class="title">features</div><a href="#" class="footer-link">Multi Factor Authentication</a><a href="#" class="footer-link">SSOSSO</a><a href="#" class="footer-link">Passwordless</a><a href="https://university.webflow.com/" target="_blank" class="footer-link">User Access Management</a></div>
+          <div class="title">features</div><a href="#" class="footer-link">Multi Factor Authentication</a><a href="#" class="footer-link">Single Sign-on</a><a href="https://university.webflow.com/" target="_blank" class="footer-link">Access Management</a><a href="#" class="footer-link">Passwordless</a></div>
         <div id="w-node-a159dcc6da72-dcc6da57" class="footer-column">
           <div class="title">Business </div><a href="http://www.flowbase.co" target="_blank" class="footer-link">Business Cases</a><a href="http://www.flowbase.co" target="_blank" class="footer-link">White Paper</a></div>
       </div>
