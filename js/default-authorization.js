@@ -781,6 +781,9 @@ var DIGITAL_PRODUCT_TYPE = {
   fields: {
     product: [].concat(DEFAULT_PRODUCT_TYPE_PRODUCT_FIELDS),
     sku: [].concat(DEFAULT_PRODUCT_TYPE_SKU_FIELDS, [{
+      fieldSlug: 'include-downloads',
+      required: false
+    }, {
       fieldSlug: 'download-files',
       required: false
     }])
