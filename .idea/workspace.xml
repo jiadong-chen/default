@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb19c837-912f-4562-834f-15e042e84417" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="eb19c837-912f-4562-834f-15e042e84417" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,9 +28,16 @@
       <file leaf-file-name="default-authorization.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/default-authorization.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="1952" column="20" lean-forward="false" selection-start-line="1952" selection-start-column="20" selection-end-line="1952" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="217">
+              <caret line="1946" column="17" lean-forward="true" selection-start-line="1946" selection-start-column="17" selection-end-line="1946" selection-end-column="17" />
+              <folding>
+                <marker date="1596758430000" expanded="true" signature="50809:50838" ph="{...}" />
+                <marker date="1596758430000" expanded="true" signature="92917:92924" ph="{...}" />
+                <marker date="1596758430000" expanded="true" signature="92937:93063" ph="{...}" />
+                <marker date="1596758430000" expanded="true" signature="93075:93203" ph="{...}" />
+                <marker date="1596758430000" expanded="true" signature="93215:93342" ph="{...}" />
+                <marker date="1596758430000" expanded="true" signature="93354:93478" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,6 +51,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/default-authorization.css" />
       </list>
     </option>
   </component>
@@ -214,12 +220,12 @@
       <option name="presentableId" value="Default" />
       <updated>1595866308887</updated>
       <workItem from="1595866312053" duration="1145000" />
-      <workItem from="1596684621838" duration="756000" />
+      <workItem from="1596684621838" duration="1370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1901000" />
+    <option name="totallyTimeSpent" value="2515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="957" extended-state="0" />
@@ -272,9 +278,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default-authorization.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="1952" column="20" lean-forward="false" selection-start-line="1952" selection-start-column="20" selection-end-line="1952" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="217">
+          <caret line="1946" column="17" lean-forward="true" selection-start-line="1946" selection-start-column="17" selection-end-line="1946" selection-end-column="17" />
+          <folding>
+            <marker date="1596758430000" expanded="true" signature="50809:50838" ph="{...}" />
+            <marker date="1596758430000" expanded="true" signature="92917:92924" ph="{...}" />
+            <marker date="1596758430000" expanded="true" signature="92937:93063" ph="{...}" />
+            <marker date="1596758430000" expanded="true" signature="93075:93203" ph="{...}" />
+            <marker date="1596758430000" expanded="true" signature="93215:93342" ph="{...}" />
+            <marker date="1596758430000" expanded="true" signature="93354:93478" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
