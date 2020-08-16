@@ -3567,6 +3567,8 @@ li {
 
 .feature-paragraph {
   margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
   font-family: Inter, sans-serif;
   color: #f5fbfc;
   font-size: 16px;
@@ -3750,6 +3752,10 @@ li {
 
 .section-3 {
   text-align: center;
+}
+
+.section-4 {
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -4241,6 +4247,9 @@ li {
   .words-section {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .feature-paragraph {
+    margin-top: 40px;
   }
   .content-section-copy {
     padding-top: 60px;
